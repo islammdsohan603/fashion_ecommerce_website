@@ -9,7 +9,11 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
-  const menuItems = ['Shop', 'Men', 'Women'];
+  const menuItems = [
+    { lavel: 'Shop', href: '/shop', id: 1 },
+    { lavel: 'Men', href: '/men', id: 2 },
+    { lavel: 'Women', href: '/women', id: 3 },
+  ];
 
   return (
     <header className="bg-[#dad7cd] sticky top-0 z-50 py-4 shadow-sm">
@@ -23,19 +27,21 @@ const Navbar = () => {
         </button>
 
         {/* logo*/}
-        <h1 className="text-2xl font-bold tracking-tighter text-black">
-          VELOURA
-        </h1>
+        <Link href={'/'}>
+          <h1 className="text-2xl font-bold tracking-tighter text-black">
+            VELOURA
+          </h1>
+        </Link>
 
         {/* desktop menu*/}
         <div className="hidden md:flex items-center gap-8 font-medium">
           {menuItems.map(item => (
             <Link
-              key={item}
-              href="/"
+              key={item.id}
+              href={`${item.href}`}
               className="text-black font-bold hover:underline underline-offset-4 decoration-1"
             >
-              {item}
+              {item.lavel}
             </Link>
           ))}
         </div>

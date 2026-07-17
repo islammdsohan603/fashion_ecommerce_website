@@ -11,8 +11,6 @@ const NewArrivals = () => {
     .sort((a, b) => b.rating - a.rating)
     .slice(0, 4);
 
-  console.log(topRatedProducts);
-
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1, transition: { staggerChildren: 0.2 } },
@@ -36,7 +34,7 @@ const NewArrivals = () => {
             </p>
           </div>
           <Link
-            href={'/'}
+            href={'/shop'}
             className="text-black font-semibold hover:underline duration-700"
           >
             View all
@@ -71,10 +69,13 @@ const NewArrivals = () => {
               </h3>
               <p className="text-black mb-3">${product.discountPrice}</p>
 
-              {/* Add to Cart Button */}
-              <button className="w-full cursor-pointer py-2 rounded-2xl bg-black text-white font-medium hover:bg-gray-800 transition-colors duration-300">
-                Add to Cart
-              </button>
+              {/* view details*/}
+              <Link
+                href={`/products/${product.id}`}
+                className="w-full block text-black text-center py-2.5 rounded-xl border border-black font-semibold hover:bg-black hover:text-white transition-all duration-300"
+              >
+                View Details
+              </Link>
             </motion.div>
           ))}
         </motion.div>

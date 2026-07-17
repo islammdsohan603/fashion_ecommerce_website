@@ -2,6 +2,7 @@
 import { Inter, Playfair_Display } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/layout/Nabvar'
+import Footer from '@/components/layout/Footer'
 
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.variable} ${playfair.variable} font-sans`}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   )
