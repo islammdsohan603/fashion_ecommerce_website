@@ -1,9 +1,10 @@
 'use client';
 import React, { useState } from 'react';
 import Image from 'next/image';
-import { motion } from 'framer-motion'; // Framer motion import
+import { motion } from 'framer-motion';
 import { useCart } from '@/contextapi/CartContext';
 import AddButton from '../addbutton/AddButton';
+import Link from 'next/link';
 
 const DetailsCard = ({ product }) => {
   const [activeImage, setActiveImage] = useState(product.images[0]);
@@ -16,9 +17,18 @@ const DetailsCard = ({ product }) => {
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
-      className="flex flex-col lg:flex-row gap-8 lg:gap-16 p-4 md:p-8 rounded-2xl text-black"
+      className="relative flex flex-col lg:flex-row gap-8 lg:gap-16 p-4 md:p-8 pt-16 rounded-2xl text-black"
     >
-      <div className="flex flex-col-reverse md:flex-row gap-4">
+      {/* Go Back Link  */}
+      <Link
+        href="/shop"
+        className="absolute top-0 left-4 z-10 px-4 py-2 rounded-xl font-bold bg-[#d9d6cc] hover:bg-[#c9c6bc] transition-all shadow-sm"
+      >
+        ← Go Back
+      </Link>
+
+      {/* Image Section */}
+      <div className="flex flex-col-reverse md:flex-row gap-4 mt-4 lg:mt-0">
         <div className="flex md:flex-col gap-3">
           {product.images.map((img, index) => (
             <motion.div
@@ -44,6 +54,7 @@ const DetailsCard = ({ product }) => {
         </div>
       </div>
 
+      {/* Details Section */}
       <div className="flex-1 text-black">
         <div className="flex items-center gap-2 mb-2">
           <span className="text-sm font-semibold uppercase">
@@ -77,6 +88,7 @@ const DetailsCard = ({ product }) => {
 
         <p className="mb-6 leading-relaxed opacity-90">{product.description}</p>
 
+        {/* Color Selection */}
         <div className="mb-6">
           <p className="font-semibold mb-2">Color: {selectedColor}</p>
           <div className="flex gap-3">
@@ -97,6 +109,7 @@ const DetailsCard = ({ product }) => {
           </div>
         </div>
 
+        {/* Size Selection */}
         <div className="mb-8">
           <p className="font-semibold mb-2">Select Size</p>
           <div className="flex gap-3">
