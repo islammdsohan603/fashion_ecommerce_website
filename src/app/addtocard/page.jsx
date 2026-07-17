@@ -3,6 +3,7 @@
 import { useCart } from '@/contextapi/CartContext';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 const AddtoCadPage = () => {
   const { cart, totalPrice, updateQuantity } = useCart();
@@ -87,9 +88,11 @@ const AddtoCadPage = () => {
           <div className="flex justify-between mb-6 font-bold text-xl">
             <span>Total</span> <span>${totalPrice.toFixed(2)}</span>
           </div>
-          <button className="w-full cursor-pointer bg-black text-white py-3 rounded-xl hover:bg-gray-800 transition-all duration-300">
-            Proceed to Checkout
-          </button>
+          <Link href={'/paymant'}>
+            <button className="w-full cursor-pointer bg-black text-white py-3 rounded-xl hover:bg-gray-800 transition-all duration-300">
+              Proceed to Checkout
+            </button>
+          </Link>
         </motion.div>
       </motion.div>
     </section>
