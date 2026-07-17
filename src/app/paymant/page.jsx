@@ -1,11 +1,18 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect } from 'react'; // useEffect import করুন
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { CheckCircle2, ArrowRight } from 'lucide-react';
+import { useCart } from '@/contextapi/CartContext'; // CartContext import করুন
 
 const SuccessPaymentPage = () => {
+  const { clearCart } = useCart();
+
+  useEffect(() => {
+    clearCart();
+  }, []);
+
   return (
     <section className="min-h-screen bg-[#ded8d3] flex items-center justify-center p-6 text-black">
       <motion.div
