@@ -1,7 +1,7 @@
-'use client'; // অ্যানিমেশনের জন্য এটি থাকা আবশ্যক
+'use client';
 
 import Image from 'next/image';
-import React from 'react';
+import React, { useState } from 'react';
 import products from '@/data/products.json';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
@@ -10,6 +10,7 @@ const NewArrivals = () => {
   const topRatedProducts = [...products]
     .sort((a, b) => b.rating - a.rating)
     .slice(0, 4);
+  const [clicked, setIsClicked] = useState(false);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -69,13 +70,25 @@ const NewArrivals = () => {
               </h3>
               <p className="text-black mb-3">${product.discountPrice}</p>
 
-              {/* view details*/}
-              <Link
-                href={`/products/${product.id}`}
-                className="w-full block text-black text-center py-2.5 rounded-xl border border-black font-semibold hover:bg-black hover:text-white transition-all duration-300"
-              >
-                View Details
-              </Link>
+              <div className="flex flex-col gap-2">
+                <button
+                  onClick={() => setIsClicked(true)}
+                  className={`cursor-pointer w-full py-2.5 rounded-xl font-semibold transition-all duration-300 ${
+                    clicked
+                      ? 'bg-green-600 text-white'
+                      : 'bg-black text-white hover:bg-gray-800'
+                  }`}
+                >
+                  {clicked ? 'Added to Cart' : 'Add to Cart'}
+                </button>
+
+                <Link
+                  href={`/products/${product.id}`}
+                  className="w-full text-black text-center py-2.5 rounded-xl border border-black font-semibold hover:bg-black hover:text-white transition-all duration-300"
+                >
+                  View Details
+                </Link>
+              </div>
             </motion.div>
           ))}
         </motion.div>
