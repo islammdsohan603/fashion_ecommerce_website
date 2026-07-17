@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import AddButton from '../addbutton/AddButton';
 
 const itemVariants = {
   hidden: { opacity: 0, y: 30 },
@@ -10,8 +11,6 @@ const itemVariants = {
 };
 
 const ProductsCard = ({ product }) => {
-  const [clicked, setIsClicked] = useState(false);
-
   return (
     <motion.div
       variants={itemVariants}
@@ -39,16 +38,8 @@ const ProductsCard = ({ product }) => {
       </div>
 
       <div className="flex flex-col gap-2">
-        <button
-          onClick={() => setIsClicked(true)}
-          className={`cursor-pointer w-full py-2.5 rounded-xl font-semibold transition-all duration-300 ${
-            clicked
-              ? 'bg-green-600 text-white'
-              : 'bg-black text-white hover:bg-gray-800'
-          }`}
-        >
-          {clicked ? 'Added to Cart' : 'Add to Cart'}
-        </button>
+        {/* add button */}
+        <AddButton product={product} />
 
         <Link
           href={`/products/${product.id}`}

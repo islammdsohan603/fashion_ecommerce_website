@@ -2,11 +2,14 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion'; // Framer motion import
+import { useCart } from '@/contextapi/CartContext';
+import AddButton from '../addbutton/AddButton';
 
 const DetailsCard = ({ product }) => {
   const [activeImage, setActiveImage] = useState(product.images[0]);
   const [selectedSize, setSelectedSize] = useState(product.sizes[0]);
   const [selectedColor, setSelectedColor] = useState(product.colors[0]);
+  const { addToCart } = useCart();
 
   return (
     <motion.div
@@ -123,13 +126,11 @@ const DetailsCard = ({ product }) => {
         </div>
 
         <div className="flex flex-col gap-4 max-w-md">
-          <motion.button
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
-            className="w-full cursor-pointer bg-black text-white py-4 rounded-xl font-bold hover:bg-gray-800 transition"
-          >
-            Add to Cart
-          </motion.button>
+          <AddButton
+            product={product}
+            selectedSize={selectedSize}
+            selectedColor={selectedColor}
+          />
         </div>
       </div>
     </motion.div>

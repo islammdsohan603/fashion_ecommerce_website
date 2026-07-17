@@ -5,12 +5,12 @@ import React, { useState } from 'react';
 import products from '@/data/products.json';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import AddButton from '../addbutton/AddButton';
 
 const NewArrivals = () => {
   const topRatedProducts = [...products]
     .sort((a, b) => b.rating - a.rating)
     .slice(0, 4);
-  const [clicked, setIsClicked] = useState(false);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -71,16 +71,7 @@ const NewArrivals = () => {
               <p className="text-black mb-3">${product.discountPrice}</p>
 
               <div className="flex flex-col gap-2">
-                <button
-                  onClick={() => setIsClicked(true)}
-                  className={`cursor-pointer w-full py-2.5 rounded-xl font-semibold transition-all duration-300 ${
-                    clicked
-                      ? 'bg-green-600 text-white'
-                      : 'bg-black text-white hover:bg-gray-800'
-                  }`}
-                >
-                  {clicked ? 'Added to Cart' : 'Add to Cart'}
-                </button>
+                <AddButton product={product} />
 
                 <Link
                   href={`/products/${product.id}`}

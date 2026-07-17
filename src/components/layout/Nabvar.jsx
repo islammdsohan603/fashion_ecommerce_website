@@ -4,10 +4,12 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, ShoppingBag, Menu, X } from 'lucide-react';
+import { useCart } from '@/contextapi/CartContext';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const { totalItems, totalPrice } = useCart();
 
   const menuItems = [
     { lavel: 'Shop', href: '/shop', id: 1 },
@@ -65,7 +67,14 @@ const Navbar = () => {
               onClick={() => setIsSearchOpen(!isSearchOpen)}
             />
           </div>
-          <ShoppingBag className="cursor-pointer text-black" />
+          <Link href={'/addtocard'} className="relative">
+            <ShoppingBag className="cursor-pointer text-black" />
+            {totalItems > 0 && (
+              <span className="absolute -top-2 -right-2 bg-red-500 text-white text-[10px] font-bold rounded-full h-4 w-4 flex items-center justify-center">
+                {totalItems}
+              </span>
+            )}
+          </Link>
         </div>
       </nav>
 
@@ -80,12 +89,12 @@ const Navbar = () => {
           >
             {menuItems.map(item => (
               <Link
-                key={item}
-                href="/"
+                key={item.id}
+                href={item.href}
                 onClick={() => setIsOpen(false)}
-                className="text-lg"
+                className="text-lg font-bold"
               >
-                {item}
+                {item.lavel}
               </Link>
             ))}
           </motion.div>
