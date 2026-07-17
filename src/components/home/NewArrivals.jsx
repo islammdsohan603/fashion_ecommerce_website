@@ -11,7 +11,8 @@ const NewArrivals = () => {
     .sort((a, b) => b.rating - a.rating)
     .slice(0, 4);
 
-  // অ্যানিমেশন ভেরিয়েন্টস
+  console.log(topRatedProducts);
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1, transition: { staggerChildren: 0.2 } },
@@ -57,7 +58,7 @@ const NewArrivals = () => {
             >
               <div className="relative w-full h-[350px] md:h-[400px] lg:h-[350px] overflow-hidden rounded-lg mb-4">
                 <Image
-                  src={product.images[0]}
+                  src={product.images[1]}
                   alt={product.name}
                   fill
                   sizes="(max-width: 668px) 100vw, (max-width: 1200px) 50vw, 25vw"

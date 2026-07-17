@@ -16,8 +16,8 @@
     "newArrival": false,
     "bestSeller": false,
     "images": [
-      "https://picsum.photos/seed/fashion1/800/1000",
-      "https://picsum.photos/seed/fashion1b/800/1000"
+      "https://i.ibb.co.com/x8Yp7Ytb/premium-t-shir-white.jpg",
+      "https://i.ibb.co.com/6RvkGX4n/premum-black-t-shirt.jpg"
     ],
     "description": "Premium quality t-shirt designed for everyday comfort and modern style."
   },
@@ -38,8 +38,8 @@
     "newArrival": false,
     "bestSeller": false,
     "images": [
-      "https://picsum.photos/seed/fashion2/800/1000",
-      "https://picsum.photos/seed/fashion2b/800/1000"
+      "https://i.ibb.co.com/RGBf4zPJ/JEMA-BRY-1688-11.jpg",
+      "https://i.ibb.co.com/23bbxCkX/shirt-gray.jpg"
     ],
     "description": "Premium quality shirt designed for everyday comfort and modern style."
   },
@@ -60,8 +60,8 @@
     "newArrival": false,
     "bestSeller": false,
     "images": [
-      "https://picsum.photos/seed/fashion3/800/1000",
-      "https://picsum.photos/seed/fashion3b/800/1000"
+      "https://i.ibb.co.com/nMB9KQFK/fashion-woman-beige.jpg",
+      "https://i.ibb.co.com/2p1YBSG/women-Olive.webp"
     ],
     "description": "Premium quality dress designed for everyday comfort and modern style."
   },
@@ -82,8 +82,8 @@
     "newArrival": false,
     "bestSeller": true,
     "images": [
-      "https://picsum.photos/seed/fashion4/800/1000",
-      "https://picsum.photos/seed/fashion4b/800/1000"
+      "https://i.ibb.co.com/TxMskf1x/top-gray.jpg",
+      "https://i.ibb.co.com/NBn6bxw/Top-Black.jpg"
     ],
     "description": "Premium quality top designed for everyday comfort and modern style."
   },
@@ -104,8 +104,8 @@
     "newArrival": false,
     "bestSeller": false,
     "images": [
-      "https://picsum.photos/seed/fashion5/800/1000",
-      "https://picsum.photos/seed/fashion5b/800/1000"
+      "https://i.ibb.co.com/Y7vmZbD0/sneakers-olive.jpg",
+      "https://i.ibb.co.com/Mk9nXV7w/sneaker-white.jpg"
     ],
     "description": "Premium quality sneakers designed for everyday comfort and modern style."
   },
@@ -126,8 +126,8 @@
     "newArrival": false,
     "bestSeller": false,
     "images": [
-      "https://picsum.photos/seed/fashion6/800/1000",
-      "https://picsum.photos/seed/fashion6b/800/1000"
+      "https://i.ibb.co.com/4Zc4LLNL/premum-Bag-Black.jpg",
+      "https://i.ibb.co.com/zWC4FFGg/bag-navy.jpg"
     ],
     "description": "Premium quality bag designed for everyday comfort and modern style."
   },
@@ -148,8 +148,8 @@
     "newArrival": false,
     "bestSeller": false,
     "images": [
-      "https://picsum.photos/seed/fashion7/800/1000",
-      "https://picsum.photos/seed/fashion7b/800/1000"
+      "https://i.ibb.co.com/6cy0XzrT/Nike-Tshart-White.avif",
+      "https://i.ibb.co.com/SXrd8F2f/Nike-Beige.webp"
     ],
     "description": "Premium quality t-shirt designed for everyday comfort and modern style."
   },
@@ -170,8 +170,8 @@
     "newArrival": false,
     "bestSeller": true,
     "images": [
-      "https://picsum.photos/seed/fashion8/800/1000",
-      "https://picsum.photos/seed/fashion8b/800/1000"
+      "https://i.ibb.co.com/bM2xLrBt/adidas-Navy.jpg",
+      "https://i.ibb.co.com/3yNXv8xC/adidas-Gray.jpg"
     ],
     "description": "Premium quality shirt designed for everyday comfort and modern style."
   },
@@ -192,8 +192,8 @@
     "newArrival": false,
     "bestSeller": false,
     "images": [
-      "https://picsum.photos/seed/fashion9/800/1000",
-      "https://picsum.photos/seed/fashion9b/800/1000"
+      "https://i.ibb.co.com/NgjG8Ljv/wniqlo-Beige.jpg",
+      "https://i.ibb.co.com/gLnfRQxY/Olivewniqle.jpg"
     ],
     "description": "Premium quality dress designed for everyday comfort and modern style."
   },
@@ -214,8 +214,8 @@
     "newArrival": false,
     "bestSeller": false,
     "images": [
-      "https://picsum.photos/seed/fashion10/800/1000",
-      "https://picsum.photos/seed/fashion10b/800/1000"
+      "https://i.ibb.co.com/RkKyhyC7/womentopgray.jpg",
+      "https://i.ibb.co.com/kVnHDZ6C/black.webp"
     ],
     "description": "Premium quality top designed for everyday comfort and modern style."
   },
@@ -236,8 +236,8 @@
     "newArrival": false,
     "bestSeller": false,
     "images": [
-      "https://picsum.photos/seed/fashion11/800/1000",
-      "https://picsum.photos/seed/fashion11b/800/1000"
+      "https://i.ibb.co.com/DHK122q5/H-MOlive.jpg",
+      "https://i.ibb.co.com/YBPCszQb/whitesek.jpg"
     ],
     "description": "Premium quality sneakers designed for everyday comfort and modern style."
   },
@@ -258,404 +258,8 @@
     "newArrival": false,
     "bestSeller": true,
     "images": [
-      "https://picsum.photos/seed/fashion12/800/1000",
-      "https://picsum.photos/seed/fashion12b/800/1000"
-    ],
-    "description": "Premium quality bag designed for everyday comfort and modern style."
-  },
-  {
-    "id": 13,
-    "name": "Premium T-Shirt ",
-    "brand": "Adidas",
-    "category": "Men",
-    "subcategory": "T-Shirt",
-    "price": 78.99,
-    "discountPrice": 67.49,
-    "rating": 4.7,
-    "reviews": 171,
-    "colors": ["White", "Beige"],
-    "sizes": ["S", "M", "L", "XL"],
-    "inStock": true,
-    "featured": false,
-    "newArrival": false,
-    "bestSeller": false,
-    "images": [
-      "https://picsum.photos/seed/fashion13/800/1000",
-      "https://picsum.photos/seed/fashion13b/800/1000"
-    ],
-    "description": "Premium quality t-shirt designed for everyday comfort and modern style."
-  },
-  {
-    "id": 14,
-    "name": "Premium Shirt ",
-    "brand": "Uniqlo",
-    "category": "Men",
-    "subcategory": "Shirt",
-    "price": 81.99,
-    "discountPrice": 69.99,
-    "rating": 4.8,
-    "reviews": 178,
-    "colors": ["Navy", "Gray"],
-    "sizes": ["S", "M", "L", "XL"],
-    "inStock": true,
-    "featured": false,
-    "newArrival": false,
-    "bestSeller": false,
-    "images": [
-      "https://picsum.photos/seed/fashion14/800/1000",
-      "https://picsum.photos/seed/fashion14b/800/1000"
-    ],
-    "description": "Premium quality shirt designed for everyday comfort and modern style."
-  },
-  {
-    "id": 15,
-    "name": "Premium Dress ",
-    "brand": "Zara",
-    "category": "Women",
-    "subcategory": "Dress",
-    "price": 84.99,
-    "discountPrice": 72.49,
-    "rating": 4.2,
-    "reviews": 185,
-    "colors": ["Beige", "Olive"],
-    "sizes": ["S", "M", "L", "XL"],
-    "inStock": true,
-    "featured": false,
-    "newArrival": false,
-    "bestSeller": false,
-    "images": [
-      "https://picsum.photos/seed/fashion15/800/1000",
-      "https://picsum.photos/seed/fashion15b/800/1000"
-    ],
-    "description": "Premium quality dress designed for everyday comfort and modern style."
-  },
-  {
-    "id": 16,
-    "name": "Premium Top ",
-    "brand": "H&M",
-    "category": "Women",
-    "subcategory": "Top",
-    "price": 87.99,
-    "discountPrice": 74.99,
-    "rating": 4.4,
-    "reviews": 192,
-    "colors": ["Gray", "Black"],
-    "sizes": ["S", "M", "L", "XL"],
-    "inStock": true,
-    "featured": false,
-    "newArrival": false,
-    "bestSeller": true,
-    "images": [
-      "https://picsum.photos/seed/fashion16/800/1000",
-      "https://picsum.photos/seed/fashion16b/800/1000"
-    ],
-    "description": "Premium quality top designed for everyday comfort and modern style."
-  },
-  {
-    "id": 17,
-    "name": "Premium Sneakers ",
-    "brand": "Nike",
-    "category": "Shoes",
-    "subcategory": "Sneakers",
-    "price": 90.99,
-    "discountPrice": 77.49,
-    "rating": 4.5,
-    "reviews": 199,
-    "colors": ["Olive", "White"],
-    "sizes": ["S", "M", "L", "XL"],
-    "inStock": true,
-    "featured": false,
-    "newArrival": false,
-    "bestSeller": false,
-    "images": [
-      "https://picsum.photos/seed/fashion17/800/1000",
-      "https://picsum.photos/seed/fashion17b/800/1000"
-    ],
-    "description": "Premium quality sneakers designed for everyday comfort and modern style."
-  },
-  {
-    "id": 18,
-    "name": "Premium Bag ",
-    "brand": "Adidas",
-    "category": "Accessories",
-    "subcategory": "Bag",
-    "price": 93.99,
-    "discountPrice": 79.99,
-    "rating": 4.7,
-    "reviews": 206,
-    "colors": ["Black", "Navy"],
-    "sizes": ["S", "M", "L", "XL"],
-    "inStock": true,
-    "featured": false,
-    "newArrival": false,
-    "bestSeller": false,
-    "images": [
-      "https://picsum.photos/seed/fashion18/800/1000",
-      "https://picsum.photos/seed/fashion18b/800/1000"
-    ],
-    "description": "Premium quality bag designed for everyday comfort and modern style."
-  },
-  {
-    "id": 19,
-    "name": "Premium T-Shirt ",
-    "brand": "Uniqlo",
-    "category": "Men",
-    "subcategory": "T-Shirt",
-    "price": 96.99,
-    "discountPrice": 82.49,
-    "rating": 4.8,
-    "reviews": 213,
-    "colors": ["White", "Beige"],
-    "sizes": ["S", "M", "L", "XL"],
-    "inStock": true,
-    "featured": false,
-    "newArrival": false,
-    "bestSeller": false,
-    "images": [
-      "https://picsum.photos/seed/fashion19/800/1000",
-      "https://picsum.photos/seed/fashion19b/800/1000"
-    ],
-    "description": "Premium quality t-shirt designed for everyday comfort and modern style."
-  },
-  {
-    "id": 20,
-    "name": "Premium Shirt ",
-    "brand": "Zara",
-    "category": "Men",
-    "subcategory": "Shirt",
-    "price": 99.99,
-    "discountPrice": 84.99,
-    "rating": 4.2,
-    "reviews": 220,
-    "colors": ["Navy", "Gray"],
-    "sizes": ["S", "M", "L", "XL"],
-    "inStock": true,
-    "featured": false,
-    "newArrival": false,
-    "bestSeller": true,
-    "images": [
-      "https://picsum.photos/seed/fashion20/800/1000",
-      "https://picsum.photos/seed/fashion20b/800/1000"
-    ],
-    "description": "Premium quality shirt designed for everyday comfort and modern style."
-  },
-  {
-    "id": 21,
-    "name": "Premium Dress ",
-    "brand": "H&M",
-    "category": "Women",
-    "subcategory": "Dress",
-    "price": 102.99,
-    "discountPrice": 87.49,
-    "rating": 4.4,
-    "reviews": 227,
-    "colors": ["Beige", "Olive"],
-    "sizes": ["S", "M", "L", "XL"],
-    "inStock": true,
-    "featured": false,
-    "newArrival": false,
-    "bestSeller": false,
-    "images": [
-      "https://picsum.photos/seed/fashion21/800/1000",
-      "https://picsum.photos/seed/fashion21b/800/1000"
-    ],
-    "description": "Premium quality dress designed for everyday comfort and modern style."
-  },
-  {
-    "id": 22,
-    "name": "Premium Top ",
-    "brand": "Nike",
-    "category": "Women",
-    "subcategory": "Top",
-    "price": 105.99,
-    "discountPrice": 89.99,
-    "rating": 4.5,
-    "reviews": 234,
-    "colors": ["Gray", "Black"],
-    "sizes": ["S", "M", "L", "XL"],
-    "inStock": true,
-    "featured": false,
-    "newArrival": false,
-    "bestSeller": false,
-    "images": [
-      "https://picsum.photos/seed/fashion22/800/1000",
-      "https://picsum.photos/seed/fashion22b/800/1000"
-    ],
-    "description": "Premium quality top designed for everyday comfort and modern style."
-  },
-  {
-    "id": 23,
-    "name": "Premium Sneakers ",
-    "brand": "Adidas",
-    "category": "Shoes",
-    "subcategory": "Sneakers",
-    "price": 108.99,
-    "discountPrice": 92.49,
-    "rating": 4.7,
-    "reviews": 241,
-    "colors": ["Olive", "White"],
-    "sizes": ["S", "M", "L", "XL"],
-    "inStock": true,
-    "featured": false,
-    "newArrival": false,
-    "bestSeller": false,
-    "images": [
-      "https://picsum.photos/seed/fashion23/800/1000",
-      "https://picsum.photos/seed/fashion23b/800/1000"
-    ],
-    "description": "Premium quality sneakers designed for everyday comfort and modern style."
-  },
-  {
-    "id": 24,
-    "name": "Premium Bag ",
-    "brand": "Uniqlo",
-    "category": "Accessories",
-    "subcategory": "Bag",
-    "price": 111.99,
-    "discountPrice": 94.99,
-    "rating": 4.8,
-    "reviews": 248,
-    "colors": ["Black", "Navy"],
-    "sizes": ["S", "M", "L", "XL"],
-    "inStock": true,
-    "featured": false,
-    "newArrival": false,
-    "bestSeller": true,
-    "images": [
-      "https://picsum.photos/seed/fashion24/800/1000",
-      "https://picsum.photos/seed/fashion24b/800/1000"
-    ],
-    "description": "Premium quality bag designed for everyday comfort and modern style."
-  },
-  {
-    "id": 25,
-    "name": "Premium T-Shirt ",
-    "brand": "Zara",
-    "category": "Men",
-    "subcategory": "T-Shirt",
-    "price": 114.99,
-    "discountPrice": 97.49,
-    "rating": 4.2,
-    "reviews": 255,
-    "colors": ["White", "Beige"],
-    "sizes": ["S", "M", "L", "XL"],
-    "inStock": true,
-    "featured": false,
-    "newArrival": true,
-    "bestSeller": false,
-    "images": [
-      "https://picsum.photos/seed/fashion25/800/1000",
-      "https://picsum.photos/seed/fashion25b/800/1000"
-    ],
-    "description": "Premium quality t-shirt designed for everyday comfort and modern style."
-  },
-  {
-    "id": 26,
-    "name": "Premium Shirt ",
-    "brand": "H&M",
-    "category": "Men",
-    "subcategory": "Shirt",
-    "price": 117.99,
-    "discountPrice": 99.99,
-    "rating": 4.4,
-    "reviews": 262,
-    "colors": ["Navy", "Gray"],
-    "sizes": ["S", "M", "L", "XL"],
-    "inStock": true,
-    "featured": false,
-    "newArrival": true,
-    "bestSeller": false,
-    "images": [
-      "https://picsum.photos/seed/fashion26/800/1000",
-      "https://picsum.photos/seed/fashion26b/800/1000"
-    ],
-    "description": "Premium quality shirt designed for everyday comfort and modern style."
-  },
-  {
-    "id": 27,
-    "name": "Premium Dress ",
-    "brand": "Nike",
-    "category": "Women",
-    "subcategory": "Dress",
-    "price": 120.99,
-    "discountPrice": 102.49,
-    "rating": 4.5,
-    "reviews": 269,
-    "colors": ["Beige", "Olive"],
-    "sizes": ["S", "M", "L", "XL"],
-    "inStock": true,
-    "featured": false,
-    "newArrival": true,
-    "bestSeller": false,
-    "images": [
-      "https://picsum.photos/seed/fashion27/800/1000",
-      "https://picsum.photos/seed/fashion27b/800/1000"
-    ],
-    "description": "Premium quality dress designed for everyday comfort and modern style."
-  },
-  {
-    "id": 28,
-    "name": "Premium Top ",
-    "brand": "Adidas",
-    "category": "Women",
-    "subcategory": "Top",
-    "price": 123.99,
-    "discountPrice": 104.99,
-    "rating": 4.7,
-    "reviews": 276,
-    "colors": ["Gray", "Black"],
-    "sizes": ["S", "M", "L", "XL"],
-    "inStock": true,
-    "featured": false,
-    "newArrival": true,
-    "bestSeller": true,
-    "images": [
-      "https://picsum.photos/seed/fashion28/800/1000",
-      "https://picsum.photos/seed/fashion28b/800/1000"
-    ],
-    "description": "Premium quality top designed for everyday comfort and modern style."
-  },
-  {
-    "id": 29,
-    "name": "Premium Sneakers ",
-    "brand": "Uniqlo",
-    "category": "Shoes",
-    "subcategory": "Sneakers",
-    "price": 126.99,
-    "discountPrice": 107.49,
-    "rating": 4.8,
-    "reviews": 283,
-    "colors": ["Olive", "White"],
-    "sizes": ["S", "M", "L", "XL"],
-    "inStock": true,
-    "featured": false,
-    "newArrival": true,
-    "bestSeller": false,
-    "images": [
-      "https://picsum.photos/seed/fashion29/800/1000",
-      "https://picsum.photos/seed/fashion29b/800/1000"
-    ],
-    "description": "Premium quality sneakers designed for everyday comfort and modern style."
-  },
-  {
-    "id": 30,
-    "name": "Premium Bag ",
-    "brand": "Zara",
-    "category": "Accessories",
-    "subcategory": "Bag",
-    "price": 129.99,
-    "discountPrice": 109.99,
-    "rating": 4.2,
-    "reviews": 290,
-    "colors": ["Black", "Navy"],
-    "sizes": ["S", "M", "L", "XL"],
-    "inStock": true,
-    "featured": false,
-    "newArrival": true,
-    "bestSeller": false,
-    "images": [
-      "https://picsum.photos/seed/fashion30/800/1000",
-      "https://picsum.photos/seed/fashion30b/800/1000"
+      "https://i.ibb.co.com/Y4vdFQPj/Bag-Nike.avif",
+      "https://i.ibb.co.com/JRqBN8W2/Nike-Navy.jpg"
     ],
     "description": "Premium quality bag designed for everyday comfort and modern style."
   }
