@@ -1,7 +1,8 @@
 // src/app/layout.js
 import { Inter, Playfair_Display } from 'next/font/google'
 import './globals.css'
-import Navbar from './components/layout/Navbar'
+import Navbar from '@/components/layout/Nabvar'
+
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
