@@ -1,0 +1,92 @@
+'use client';
+
+import Link from 'next/link';
+import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Search, ShoppingBag, Menu, X } from 'lucide-react';
+
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+
+  const menuItems = ['Shop', 'Men', 'Women'];
+
+  return (
+    <header className="bg-[#dad7cd] sticky top-0 z-50 py-4 shadow-sm">
+      <nav className="container max-w-7xl mx-auto px-6 flex items-center justify-between">
+        {/*  Mobail button*/}
+        <button
+          className="md:hidden text-black cursor-pointer"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          {isOpen ? <X /> : <Menu />}
+        </button>
+
+        {/* logo*/}
+        <h1 className="text-2xl font-bold tracking-tighter text-black">
+          VELOURA
+        </h1>
+
+        {/* desktop menu*/}
+        <div className="hidden md:flex items-center gap-8 font-medium">
+          {menuItems.map(item => (
+            <Link
+              key={item}
+              href="/"
+              className="text-black font-bold hover:underline underline-offset-4 decoration-1"
+            >
+              {item}
+            </Link>
+          ))}
+        </div>
+
+        <div className="flex items-center gap-4">
+          {/*  Search Box*/}
+          <div className="relative flex items-center">
+            <AnimatePresence>
+              {isSearchOpen && (
+                <motion.input
+                  initial={{ width: 0, opacity: 0 }}
+                  animate={{ width: 200, opacity: 1 }}
+                  exit={{ width: 0, opacity: 0 }}
+                  className="bg-transparent text-black border-b font-semibold border-black outline-none mr-2"
+                  placeholder="Search..."
+                />
+              )}
+            </AnimatePresence>
+            <Search
+              className="cursor-pointer text-black"
+              onClick={() => setIsSearchOpen(!isSearchOpen)}
+            />
+          </div>
+          <ShoppingBag className="cursor-pointer text-black" />
+        </div>
+      </nav>
+
+      {/* Mobail Menu */}
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: 'auto', opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            className="md:hidden bg-[#dad7cd] text-black overflow-hidden flex flex-col items-center gap-6 py-6 border-t"
+          >
+            {menuItems.map(item => (
+              <Link
+                key={item}
+                href="/"
+                onClick={() => setIsOpen(false)}
+                className="text-lg"
+              >
+                {item}
+              </Link>
+            ))}
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </header>
+  );
+};
+
+export default Navbar;
