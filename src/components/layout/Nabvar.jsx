@@ -11,11 +11,7 @@ const Navbar = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const { totalItems, totalPrice } = useCart();
 
-  const menuItems = [
-    { lavel: 'Shop', href: '/shop', id: 1 },
-    { lavel: 'Men', href: '/men', id: 2 },
-    { lavel: 'Women', href: '/women', id: 3 },
-  ];
+  const menuItems = [{ lavel: 'Shop', href: '/shop', id: 1 }];
 
   return (
     <header className="bg-[#dad7cd] sticky top-0 z-50 py-4 shadow-sm">
